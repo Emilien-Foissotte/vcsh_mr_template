@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/mr.git]
+checkout = vcsh clone git@github.com:Emilien-Foissotte/tmux-mac.git tmux
+update   = vcsh tmux pull
+push     = vcsh tmux push
+status   = vcsh tmux status
+gc       = vcsh tmux gc
