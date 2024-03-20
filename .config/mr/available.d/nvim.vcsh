@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/nvim.git]
+checkout = vcsh clone git@github.com:Emilien-Foissotte/nvim-dotfiles-vcsh.git nvim
+update   = vcsh nvim pull
+push     = vcsh nvim push
+status   = vcsh nvim status
+gc       = vcsh nvim gc
