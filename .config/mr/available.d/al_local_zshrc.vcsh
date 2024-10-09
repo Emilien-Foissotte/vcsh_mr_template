@@ -1,0 +1,7 @@
+[$HOME/.config/vcsh/repo.d/al_local_alias.git]
+checkout = vcsh clone https://git.apps.airliquide.com/Emilien.FOISSOTTE-SC/al_zshrc.git al_local_alias
+update   = vcsh al_local_alias pull
+push     = vcsh al_local_alias push
+status   = vcsh al_local_alias status
+gc       = vcsh al_local_alias gc
+
