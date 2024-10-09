@@ -1,0 +1,7 @@
+[$HOME/.config/vcsh/repo.d/aws.git]
+checkout = vcsh clone git@github.com:Emilien-Foissotte/aws.git tmux-mac
+update   = vcsh aws pull
+push     = vcsh aws push
+status   = vcsh aws status
+gc       = vcsh aws gc
+
