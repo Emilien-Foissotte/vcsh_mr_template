@@ -9,7 +9,7 @@ When moving into a new host (bacteria style 🦠), install [mr](https://myrepos.
 ### Bootstrap repos config
 
 ```sh
-cd ~ && csh clone git://github.com/Emilien-Foissotte/vcsh_mr_template.git mr
+cd ~ && vcsh clone git://github.com/Emilien-Foissotte/vcsh_mr_template.git mr
 ```
 
 ### Choose repositories
