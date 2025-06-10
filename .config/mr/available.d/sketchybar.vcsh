@@ -1,0 +1,7 @@
+[$HOME/.config/vcsh/repo.d/sketchybar.git]
+checkout = vcsh clone git@github.com:Emilien-Foissotte/sketchybar.git sketchybar
+update   = vcsh sketchybar pull
+push     = vcsh sketchybar push
+status   = vcsh sketchybar status
+gc       = vcsh sketchybar gc
+
