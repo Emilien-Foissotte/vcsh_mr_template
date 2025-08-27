@@ -20,7 +20,7 @@ For instance, to activate `tmux-mac` configuration
 cd ~/.config/mr/available.d/
 ls -la
 cd ../config.d/
-ln -s  ../available.d/tmux-mac
+ln -s  ../available.d/tmux-mac.vcsh
 ```
 
 ## Update repositories
