@@ -9,7 +9,7 @@ When moving into a new host (bacteria style 🦠), install [mr](https://myrepos.
 ## Bootstrap repos config
 
 ```sh
-cd ~ && vcsh clone git://github.com/Emilien-Foissotte/vcsh_mr_template.git mr
+cd ~ && vcsh clone https://github.com/Emilien-Foissotte/vcsh_mr_template.git mr
 ```
 
 ## Choose repositories
@@ -63,7 +63,8 @@ Create a `.vcsh` file under `~/.config/mr/available.d/`
 
 ```sh
 [$HOME/.config/vcsh/repo.d/my_new_repo.git]
-checkout = vcsh clone git@github.com:John-Doe/my_new_repo.git my_new_repo update = vcsh my_new_repo pull
+checkout = vcsh clone https://github.com/John-Doe/my_new_repo.git my_new_repo
+update = vcsh my_new_repo pull
 push     = vcsh my_new_repo push
 status   = vcsh my_new_repo status
 gc       = vcsh my_new_repo gc
