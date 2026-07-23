@@ -1,5 +1,5 @@
 [$HOME/.config/vcsh/repo.d/aerospace.git]
-checkout = vcsh clone git@github.com:Emilien-Foissotte/aerospace.git aerospace
+checkout = vcsh clone https://github.com/Emilien-Foissotte/aerospace.git aerospace
 update   = vcsh aerospace pull
 push     = vcsh aerospace push
 status   = vcsh aerospace status
